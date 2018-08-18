@@ -15,5 +15,8 @@
     "build": "gulp",
     "clean": "gulp clean",
     "git": "git add . && git commit -am 'Autoupdate' && git push origin master && cd .. && npm run update"
+  },
+  "dependencies": {
+    "npm": "^6.3.0"
   }
 }
